@@ -2,7 +2,7 @@
     background-color: rgb(28, 27, 27);
     padding: 4rem 0 2rem 0;
     display: flex;
-    flex-direction: rows;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: whitesmoke;
@@ -16,26 +16,42 @@
     text-align: center;
 }
 
-/* .contact-us {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.footer-form {
+    background-color: darkolivegreen;
+    display: grid;
+    padding: 2rem 3rem;
+    padding: 1rem 2rem;
+    margin: 0 auto;
+    border-radius: 10px;
+    width: 100%;
 }
 
-.socials {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.footer-form h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
 }
 
-.copyright {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-} */
+.footer-form p {
+    margin-bottom: 14px;
+    font-size: 14px;
+}
+
+.form-input {
+    margin-bottom: 10px;
+    padding: 12px 5px;
+    border: none;
+    border-radius: 7px;
+}
+
+button {
+    background-color: #b69416;
+    padding: 10px 0;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.footer-list {
+    list-style: none;
+}
