@@ -1,0 +1,41 @@
+.footer-container {
+    background-color: rgb(28, 27, 27);
+    padding: 4rem 0 2rem 0;
+    display: flex;
+    flex-direction: rows;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* .contact-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} */
