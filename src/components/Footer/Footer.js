@@ -1,11 +1,12 @@
 import React from 'react'
 import './Footer.css'
 import { Link } from 'react-router-dom'
+import { FaDiscord, FaInstagram, FaYoutube } from 'react-icons/fa'
 
 function Footer() {
     return (
-        <footer>
-            <div className='footer-container'>
+        <footer className='footer-container'>
+            <div className='footer-wrap'>
                 <section className='newsletter'>
                     <form className='footer-form'>
                         <h3>Newsletter</h3>
@@ -19,30 +20,36 @@ function Footer() {
                         <button type='submit'>Subscribe</button>
                     </form>
                 </section>
-                <div>
-                    <ul className='footer-list'>
-                        <li>
-                            <Link to='/' className='footer-links'>About Us</Link>
+                <section className='contact-us'>
+                    <h4>Contact Us</h4>
+                    JUNNY
+                    <br />
+                    Mon-Fri 10am-8pm
+                    <br />
+                    jimbo@mail.com
+                </section>
+            </div>
+            <div className='footer-links'>
+                <small className='rights'>Junyiee &copy; 2023</small>
+                <section className='socials'>
+                    <ul className='socials-list'>
+                        <li className='socials-item'>
+                            <Link to='/' className='socials-links'>
+                                <FaDiscord />
+                            </Link>
                         </li>
-                        <li>
-                            Contact Us
+                        <li className='socials-item'>
+                            <Link to='/' className='socials-links'>
+                                <FaInstagram />
+                            </Link>
+                        </li>
+                        <li className='socials-item'>
+                            <Link to='/' className='socials-links'>
+                                <FaYoutube />
+                            </Link>
                         </li>
                     </ul>
-                    <section className='socials'>
-                        <ul className='socials-list'>
-                            <li className='socials-item'>
-                                <Link to='/' className='socials-links'>Discord</Link>
-                            </li>
-                            <li className='socials-item'>
-                                <Link to='/' className='socials-links'>Instagram</Link>
-                            </li>
-                            <li className='socials-item'>
-                                <Link to='/' className='socials-links'>Youtube</Link>
-                            </li>
-                        </ul>
-                    </section>
-                    <small>Junyiee &copy; 2023</small>
-                </div>
+                </section>
             </div>
         </footer>
     )
