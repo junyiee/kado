@@ -29,28 +29,26 @@ function Footer() {
                     jimbo@mail.com
                 </section>
             </div>
-            <div className='footer-links'>
+            <section className='socials'>
                 <small className='rights'>Junyiee &copy; 2023</small>
-                <section className='socials'>
-                    <ul className='socials-list'>
-                        <li className='socials-item'>
-                            <Link to='/' className='socials-links'>
-                                <FaDiscord />
-                            </Link>
-                        </li>
-                        <li className='socials-item'>
-                            <Link to='/' className='socials-links'>
-                                <FaInstagram />
-                            </Link>
-                        </li>
-                        <li className='socials-item'>
-                            <Link to='/' className='socials-links'>
-                                <FaYoutube />
-                            </Link>
-                        </li>
-                    </ul>
-                </section>
-            </div>
+                <ul className='socials-list'>
+                    <li className='socials-item'>
+                        <Link to='/' className='socials-links'>
+                            <FaDiscord />
+                        </Link>
+                    </li>
+                    <li className='socials-item'>
+                        <Link to='/' className='socials-links'>
+                            <FaInstagram />
+                        </Link>
+                    </li>
+                    <li className='socials-item'>
+                        <Link to='/' className='socials-links'>
+                            <FaYoutube />
+                        </Link>
+                    </li>
+                </ul>
+            </section>
         </footer>
     )
 }
