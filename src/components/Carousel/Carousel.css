@@ -1,37 +1,34 @@
-.carousel-container {
-    width: 100%;
-    height: 800px;
+.carousel {
+    position: relative;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
 }
 
-.carousel-item {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    background-position: center;
-    background-size: cover;
+.item {
+    width: 1000px;
+    height: 600px;
+    border-radius: 10px;
 }
 
 .left {
-    flex: 5%;
-    height: 100%;
-    color: slategray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    color: black;
+    /* z-index: 10; */
     cursor: pointer;
-}
-
-.center {
-    flex: 90%;
-    height: 100%;
+    user-select: none;
 }
 
 .right {
-    flex: 5%;
-    height: 100%;
-    color: slategray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    color: black;
+    /* z-index: 10; */
     cursor: pointer;
+    user-select: none;
 }
