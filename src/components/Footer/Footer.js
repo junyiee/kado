@@ -17,7 +17,7 @@ function Footer() {
                             name='email'
                             placeholder='Your Email'
                         />
-                        <button type='submit'>Subscribe</button>
+                        <button className='footer-button' type='submit'>Subscribe</button>
                     </form>
                 </section>
                 <section className='contact-us'>

@@ -36,10 +36,9 @@ function Carousel({ slides }) {
             <BsChevronRight size={60} className='right' onClick={nextSlide} />
             {CarouselData.map((slide, index) => {
                 return (
-                    // if index is at current, return class slide active, else return class side
                     <div className={index === current ? 'slide active' : 'slide'} key={index}>
                         {index === current && (
-                            <img src={slide.img} alt={slide.title} className='item'/>
+                            <img src={slide.img} alt={slide.title} className='item' />
                         )}
                     </div>
                 )
