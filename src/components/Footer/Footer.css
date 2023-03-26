@@ -74,6 +74,15 @@
     width: 60vw;
 }
 
+.logo-link {
+    margin: 0 1.5rem;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
 .socials-list {
     list-style: none;
     display: flex;

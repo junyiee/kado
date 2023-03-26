@@ -2,6 +2,7 @@ import React from 'react'
 import './Footer.css'
 import { Link } from 'react-router-dom'
 import { FaDiscord, FaInstagram, FaYoutube } from 'react-icons/fa'
+import logo from '../../assets/olive.svg'
 
 function Footer() {
     return (
@@ -30,6 +31,9 @@ function Footer() {
                 </section>
             </div>
             <section className='socials'>
+                <Link to='/' className="logo-link">
+                    <img src={logo} alt="olive icon" className="logo" />
+                </Link>
                 <small className='rights'>Junyiee &copy; 2023</small>
                 <ul className='socials-list'>
                     <li className='socials-item'>
