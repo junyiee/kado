@@ -13,12 +13,12 @@ function Footer() {
                         <h3>Newsletter</h3>
                         <p>Subscribe for updates!</p>
                         <input
-                            className='form-input'
+                            className='footer-input'
                             type='email'
                             name='email'
                             placeholder='Your Email'
                         />
-                        <button className='footer-button' type='submit'>Subscribe</button>
+                        <button type='submit'>Subscribe</button>
                     </form>
                 </section>
                 <section className='contact-us'>
