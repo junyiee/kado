@@ -75,12 +75,15 @@ footer button {
 }
 
 .logo-link {
-    margin: 0 1.5rem;
-}
-
-.logo {
-    height: 50px;
-    width: 50px;
+    margin-right: 3rem;
+    color: olivedrab;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 500;
+    cursor: pointer;
 }
 
 .socials-list {

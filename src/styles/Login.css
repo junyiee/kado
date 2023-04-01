@@ -1,15 +1,15 @@
-.login-container {
+.login, .signup {
     position: relative;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 540px;
     max-width: 680px;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
 }
 
-.login-form {
+.form {
     display: flex;
     flex-direction: column;
     gap: 14px;
@@ -17,26 +17,47 @@
     width: 100%;
 }
 
-.login-input {
+.input {
     width: 100%;
     height: 40px;
     padding: 10px;
-    /* border: none;
-    outline: none; */
+    font-size: 1rem;
+    outline: none;
+    border: 1px solid rgb(200, 200, 200);
     border-radius: 4px;
 }
 
-.login-btn {
+.forgot-pw {
+    text-align: right;
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+}
+
+.login button, .signup button {
     height: 40px;
+    width: 100%;
     font-size: 1rem;
     font-weight: bold;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     transition: .2s ease-in;
+    margin: 0 auto;
 }
 
-.login-btn:hover {
+.login button:hover, .signup button:hover {
     background-color: olivedrab;
     color: #fff;
+}
+
+.register {
+    display: flex;
+    gap: 6px;
+}
+
+.reg-link {
+    text-decoration: none;
+    color: olivedrab;
+    font-weight: 600;
 }

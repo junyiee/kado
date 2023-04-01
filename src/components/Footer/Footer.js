@@ -32,7 +32,7 @@ function Footer() {
             </div>
             <section className='socials'>
                 <Link to='/' className="logo-link">
-                    <img src={logo} alt="olive icon" className="logo" />
+                    <img src={logo} alt="olive icon" className="logo" />olive
                 </Link>
                 <small className='rights'>Junyiee &copy; 2023</small>
                 <ul className='socials-list'>
