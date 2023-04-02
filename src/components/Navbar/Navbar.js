@@ -22,7 +22,7 @@ function Navbar() {
                 {/* set active state of mobile navbar */}
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>
-                        <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                        <Link to='/shop' className='nav-links' onClick={closeMobileMenu}>
                             Shop
                         </Link>
                     </li>
