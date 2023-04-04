@@ -20,7 +20,7 @@ function Product(props) {
                 </p>
                 <p>${price}</p>
             </div>
-            <button className="shop-btn" onClick={() => addToCart(id)}>
+            <button className="addToCartBtn" onClick={() => addToCart(id)}>
                 Add To Cart {cartItemAmount > 0 && <> ({cartItemAmount}) </>}
                 {/* simple ui within <> to put parenthesis around amount */}
             </button>

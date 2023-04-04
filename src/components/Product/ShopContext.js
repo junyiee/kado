@@ -37,6 +37,7 @@ export const ShopContextProvider = (props) => {
         setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] - 1 }));
     };
 
+    // allows item count to update for manual input
     const updateCartItemCount = (newAmount, itemId) => {
         setCartItems((prev) => ({ ...prev, [itemId]: newAmount }));
     };
