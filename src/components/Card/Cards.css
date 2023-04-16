@@ -13,7 +13,7 @@
     text-align: center;
 }
 
-.cards__container {
+/* .cards__container {
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -123,7 +123,7 @@
     .cards__item {
         margin-bottom: 2rem;
     }
-}
+} */
 
 .cards-container {
     display: flex;
@@ -222,13 +222,11 @@
     line-height: 24px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media screen and (max-width: 910px) {
     .cards {
         width: 84%;
     }
-}
 
-@media only screen and (max-width: 1024px) {
     .card-item {
         margin-bottom: 2rem;
     }

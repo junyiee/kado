@@ -141,3 +141,19 @@ footer button:hover {
     font-weight: 500;
     cursor: pointer;
 } */
+
+@media screen and (max-width: 910px) {
+    .footer-wrap {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer-input {
+        width: 55%;
+    }
+
+    footer button {
+        width: 25%;
+    }
+}
