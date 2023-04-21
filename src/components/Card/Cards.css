@@ -223,11 +223,8 @@
 }
 
 @media screen and (max-width: 910px) {
-    .cards {
-        width: 84%;
-    }
-
     .card-item {
         margin-bottom: 2rem;
+        flex: auto;
     }
 }
