@@ -3,7 +3,7 @@ import Space65 from '../../assets/space65.webp'
 import Thinkv2 from '../../assets/think6.5v2.webp'
 
 export const CarouselData = [
-    {title: "item1", img: Apollo80},
-    {title: "item2", img: Space65},
-    {title: "item3", img: Thinkv2},
+    {title: "Space80: Apollo", img: Apollo80},
+    {title: "Space65 R3", img: Space65},
+    {title: "Think6.5 v2", img: Thinkv2},
 ]
