@@ -55,9 +55,10 @@ function Carousel({ slides }) {
                         <div className="slide" key={index}>
                             {index === current && (
                                 <div className="slider">
-                                    <img src={slide.img} alt={slide.title} />
+                                    <img src={slide.img} alt={slide.alt} />
                                     <div className="carousel-content">
                                         <h1>{slide.title}</h1>
+                                        <p>{slide.description}</p>
                                     </div>
                                 </div>
                             )}
