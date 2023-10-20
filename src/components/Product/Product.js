@@ -21,8 +21,8 @@ function Product(props) {
                 <p>${price}</p>
             </div>
             <button className="addToCartBtn" onClick={() => addToCart(id)}>
-                Add To Cart {cartItemAmount > 0 && <> ({cartItemAmount}) </>}
                 {/* simple ui within <> to put parenthesis around amount */}
+                Add To Cart {cartItemAmount > 0 && <> ({cartItemAmount}) </>}
             </button>
         </div>
     )

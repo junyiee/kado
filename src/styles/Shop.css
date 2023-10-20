@@ -26,19 +26,20 @@
     align-items: center;
 }
 
+.product:hover {
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
 .product img {
     height: 500px;
     width: 400px;
     object-fit: cover;
+    border-radius: 20px;
 }
 
 .product-info {
     text-align: center;
-}
-
-.product:hover {
-    transition: 0.3s ease-in;
-    cursor: pointer;
 }
 
 .addToCartBtn {
