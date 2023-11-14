@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './Navbar.css'
 import { Link } from 'react-router-dom'
 import { FaTimes, FaBars, FaShoppingCart, FaRegUser } from 'react-icons/fa'
-import logo from '../../assets/olive.svg'
+import logo from '../../assets/cado.svg'
 import { NavLink } from 'react-router-dom'
 
 function Navbar() {
@@ -15,7 +15,7 @@ function Navbar() {
         <nav className='navbar'>
             <div className='navbar-container'>
                 <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                    <img src={logo} alt="olive icon" className="logo" />olive
+                    <img src={logo} alt="avocado icon" className="logo" />kado
                 </Link>
                 <div className="menu-icon" onClick={handleClick}>
                     {click ? <FaTimes color='#fff' /> : <FaBars color='#fff' />}
@@ -46,7 +46,7 @@ function Navbar() {
                     </li>
                     <li className="nav-item">
                         <NavLink
-                            to="/"
+                            to="/updates"
                             className={({ isActive }) =>
                                 "nav-links" + (isActive ? " activated" : "")
                             }

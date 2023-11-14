@@ -18,7 +18,8 @@
 }
 
 .navbar-logo {
-    color: olivedrab;
+    /* color: olivedrab; */
+    color: #588658;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -59,8 +60,8 @@
 }
 
 .nav-links:hover {
-    border-bottom: 4px solid olivedrab;
-    color: olivedrab;
+    border-bottom: 4px solid #588658;
+    color: #588658;
     transition: all 0.2s ease-out;
 }
 
@@ -69,7 +70,7 @@
 }
 
 .activated {
-    color: olivedrab;
+    color: #588658;
 }
 
 @media screen and (max-width: 960px) {
@@ -103,7 +104,7 @@
     }
 
     .nav-links:hover {
-        color: olivedrab;
+        color: #588658;
         transform: scale(1.2);
         transition: all 0.3s ease;
         border-bottom: none;

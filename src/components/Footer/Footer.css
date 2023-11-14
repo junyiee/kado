@@ -43,14 +43,14 @@ footer h4 {
     padding: 0 1rem;
     color: #fff;
     font-size: 15px;
-    border: 1px solid olivedrab;
+    border: 1px solid #588658;
     border-radius: 7px 0 0 7px;
     background-color: transparent;
 }
 
 .footer-input:focus,
 .footer-input:focus-visible {
-    border-color: olive;
+    border-color: #588658;
     outline: none;
 }
 
@@ -59,7 +59,7 @@ footer button {
     padding: .5em 1em;
     border: none;
     border-radius: 0 7px 7px 0;
-    background-color: olivedrab;
+    background-color: #588658;
     color: #fff;
     font-size: 15px;
     cursor: pointer;
@@ -67,7 +67,7 @@ footer button {
 }
 
 footer button:hover {
-    background-color: olive;
+    background-color: #588658;
 }
 
 .contact-us {
@@ -98,7 +98,7 @@ footer button:hover {
 }
 
 .footer-links:hover {
-    color: olivedrab;
+    color: #588658;
 }
 
 .socials {
@@ -114,7 +114,7 @@ footer button:hover {
 
 .socials-links {
     text-decoration: none;
-    color: olivedrab;
+    color: #588658;
     font-size: 25px;
 }
 

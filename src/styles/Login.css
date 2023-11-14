@@ -47,7 +47,7 @@
 }
 
 .login button:hover, .signup button:hover {
-    background-color: olivedrab;
+    background-color: #588658;
     color: #fff;
 }
 
@@ -58,6 +58,6 @@
 
 .reg-link {
     text-decoration: none;
-    color: olivedrab;
+    color: #588658;
     font-weight: 600;
 }
